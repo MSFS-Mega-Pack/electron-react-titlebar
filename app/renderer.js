@@ -1,6 +1,7 @@
 const React = require('react')
 const ReactDOM = require('react-dom')
-const { shell, remote } = require('electron')
+const { shell } = require('electron')
+const remote = require('@electron/remote')
 const { openExternal } = shell
 
 const { TitleBar } = require('..')

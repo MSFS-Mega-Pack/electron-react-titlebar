@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { remote } from 'electron'
+import * as remote from '@electron/remote'
 import PropTypes from 'prop-types'
 
 export class WindowControls extends Component {

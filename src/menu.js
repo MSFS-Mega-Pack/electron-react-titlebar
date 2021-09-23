@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import { Grid } from 'react-virtualized'
-import { remote } from 'electron'
+import * as remote from '@electron/remote'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
 import { reduxSet } from './utils'
